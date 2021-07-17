@@ -1,0 +1,48 @@
+body{
+	height:1000px;
+}
+#top_bar{
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	text-align: center;
+	line-height: 3.5;
+	font-size: 17px;
+	font-weight: 700;
+	
+}
+#register{
+	margin:16px 40px 10px 0px;
+	height:40px;
+	width: 120px;
+	font-size:17px;
+	float:right;
+	border-radius:7px;
+	color:#FFF;
+	/*
+	color: rgba(34,75,143,1.00);
+	background-color:rgba(34,75,143,1.00);
+	*/
+	background-color:rgba(34,75,143,1.00);
+	/*
+	border: 1.1px solid rgba(34,75,143,1.00);
+	*/
+	text-align: center;
+	line-height:40px;
+}
+#name_1{
+	font-size: 45px;
+	position: absolute;
+	left: 124px;
+	top: 270px;
+	color: rgba(34,75,143,1.00);
+}
+#name_2{
+	font-size: 30px;
+	position: absolute;
+	left: 320px;
+	top: 290px;
+	color: rgba(34,75,143,1.00);
+}

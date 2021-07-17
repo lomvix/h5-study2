@@ -1,0 +1,195 @@
+body{
+	height:1000px;
+	background-color: rgba(241,241,241,1.00)
+}
+#top_bar{
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	text-align: center;
+	line-height: 3.5;
+	font-size: 17px;
+	font-weight: 700;
+	box-shadow: 0 0.1px 15px rgba(0,0,0,0.3);
+	color: rgba(34,75,143,1.00);
+	background-color: rgba(255,255,255,1.00);
+	z-index: 1;
+}
+
+#register{
+	margin:16px 40px 10px 0px;
+	height:40px;
+	width: 120px;
+	font-size:17px;
+	float:right;
+	border-radius:7px;
+	color:#FFF;
+	/*
+	color: rgba(34,75,143,1.00);
+	background-color:rgba(34,75,143,1.00);
+	*/
+	background-color:rgba(34,75,143,1.00);
+	/*
+	border: 1.1px solid rgba(34,75,143,1.00);
+	*/
+	text-align: center;
+	line-height:40px;
+}
+#user_infomation{
+	height: 500px;
+	width: 250px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+	position: absolute;
+	top: 170px;
+	left: 120px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+}
+
+/*用户框和信息*/
+#user_UI1,#user_UI2,#user_UI3,#user_UI4,#user_UI5,#user_UI6,#user_UI7,#user_UI8,#user_UI9{
+	box-sizing:border-box;
+	width:70%;
+	position: relative;
+	color: rgba(34,75,143,1.00);
+}
+#user_UI1{
+	left: 20px;
+	top:20px;
+}
+#user_UI2{
+	top:-1px;
+	left: 80px;
+}
+#user_UI3{
+	top:20px;
+	left: 20px;
+}
+#user_UI4{
+	top:40px;
+	left:85px;
+}
+#user_UI5{
+	top:105px;
+	left:45px;
+}
+#user_UI6{
+	top:145px;
+	left:45px;
+}
+#user_UI7{
+	top:185px;
+	left:45px;
+}
+#user_UI8{
+	top:225px;
+	left: 45px;
+}
+#user_UI9{
+	top:265px;
+	left: 45px;
+}
+
+/*搜索输入*/
+
+#input{
+	background-color: rgba(255,255,255,1.00);
+	width: 500px;
+	height: 30px;
+	position: absolute;
+	top:120px;
+	border-radius:10px;
+	line-height: 1.6;
+	color: aliceblue;
+	left:500px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+#button{
+	background-color:rgba(34,75,143,1.00);;
+	color: aliceblue;
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	border-radius: 7px;
+	line-height: 1.7;
+	position: absolute;
+	left:1020px;
+	top: 120px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+/*#membership{
+	height: 300px;
+	width: 250px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+	position: absolute;
+	top: 520px;
+	left: 120px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+}*/
+
+#Chart_1{
+
+	position:absolute;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+	height: 115px;
+	width: 800px;
+	position: absolute;
+	left: 400px;
+	top: 320px;
+	color: rgba(34,75,143,1.00);
+	border-radius:10px;
+}
+
+#Chart_2{
+	position:absolute;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+	height: 115px;
+	width: 800px;
+	position: absolute;
+	left: 400px;
+	top: 450px;
+	color: rgba(34,75,143,1.00);
+	border-radius:10px;
+}
+#Chart_3{
+
+	position:absolute;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+	height: 115px;
+	width: 800px;
+	position: absolute;
+	left: 400px;
+	top: 580px;
+	color: rgba(34,75,143,1.00);
+	border-radius:10px;
+}
+
+#Chart_4{
+	position:absolute;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+	height: 115px;
+	width: 800px;
+	position: absolute;
+	left: 400px;
+	top: 710px;
+	color: rgba(34,75,143,1.00);
+	border-radius:10px;
+}
+
+#Chart_5{
+	position:absolute;
+	/*height: 115px;
+	width: 800px;*/
+	position: absolute;
+	left: 600px;
+	top: 840px;
+	color: rgba(34,75,143,1.00);
+}
